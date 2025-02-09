@@ -1,0 +1,10 @@
+configuration {
+  modi: "drun,run,window"; /* 使用するモードを指定 */
+  combi-modi: "drun,run,window";
+  font: "monospace 12"; /* フォントを指定 */
+  show-icons: true; /* アイコンを表示するかどうか */
+  icon-theme: "Papirus"; /* アイコンテーマを指定 */
+  terminal: "alacritty"; /* ターミナルを指定 */
+  drun-display-format: "{icon} {name}"; /* drun モードの表示形式 */
+  disable-history: false; /* 履歴を無効にするかどうか */
+}
